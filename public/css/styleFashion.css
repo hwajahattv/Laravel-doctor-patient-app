@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 20%;
+    margin-left: 20%;
+    background-image: url(img/blog_fashion/logo.jpg);
+    height: 100%;
+    /* background-size: cover; */
+    background-position: left;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    /* justify-content: right;
+    align-items: baseline; */
+}
+#menu{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+}
+#menu ul{
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    list-style-type: none;
+    margin-top: 80px;
+}
+#menu ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(43, 52, 61);
+}
+#sec2{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(43, 52, 61);
+    display: flex;
+    justify-content: center;    
+
+    
+    
+}
+#sec2_inner{
+    width: 70%;
+    margin-left: 30px;
+    display: flex;
+}
+#text{
+    width: 50%;
+    height: 100%;
+    margin-top: 80px;
+}
+#brand_title{
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 300px; */
+}
+#brand_descr{
+    color: rgb(80,115,129);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lang{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+#flag_box{
+    width: 70%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: left;
+
+}
+#flag_box a{
+    margin: 1px;
+    margin-top: 2px;   
+}
+#sec4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#sec4_inner{
+    width: 70%;
+    /* margin-left: 30px; */
+    /* display: flex;
+    justify-content: ; */
+}
+.text_box{
+    background-color: rgb(204,206,208);
+    width: 45%;
+    padding: 20px 0 20px 25px;
+    margin: 10px 10px 0 0px;
+    float: left;
+    
+}
+.textbox_title{
+    color: rgb(41,52,60);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.textbox_desc{
+    color: rgb(41,52,60);
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.text_box ul{
+    margin-left: 15px;
+    list-style-image: url(images/freccia.gif);
+}
+/* #text_box ul li{
+    
+} */
+.list_anchors{
+    text-decoration: none;
+    color: rgb(83,83,83);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sec5{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#sec5_inner{
+    width: 70%;
+    
+}
+#footer_links{
+    display: flex;
+    /* padding:  5px 0; */
+}
+/* .trade{
+    
+    
+    border-right: 1px solid rgb(171,31,108);
+} */
+.trade a{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(171,31,108);
+    margin: 5px 5px 0 0;
+}

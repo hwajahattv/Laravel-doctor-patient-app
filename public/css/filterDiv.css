@@ -1,0 +1,17 @@
+.filterDiv {
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.showDiv {
+    display: block;
+}
+
+.hideBtn {
+    display: none;
+}
+
+.showBtn {
+    display: block;
+}

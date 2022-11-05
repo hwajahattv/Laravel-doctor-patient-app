@@ -1,11 +1,6 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1>Patient-Doctor Application — Laravel | JQuery</h1>
+This is a health care web application implemented using Laravel. People can sign-up as doctors or patients. The doctor user can edit his profile and available appointments slots in a week. The patient user can see available doctors for each category and can see the available appointment slots of each doctor while making an appointment with him. The doctor user can see all appointments registered with him. Local SQL database is used in it.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 <ol>
     <li>Clone the git repo</li>
